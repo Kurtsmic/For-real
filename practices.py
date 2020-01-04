@@ -1,4 +1,5 @@
-
-f = input('first name')
-l = input('last name')
-print(l, f)
+values = input( 'numbers :' )
+list = values.split(',')
+tuple = tuple(list)
+print = ( ' list : ',list)
+print = ( ' tuple : ',tuple)
