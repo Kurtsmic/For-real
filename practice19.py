@@ -1,3 +1,5 @@
-x = str(input('say something :'))
-if len(str) >= 2 and str[:2] == "Is":
-    print(Is + x)
+x = input('say something :')
+if x[:2] == "Is":
+    print(x)
+else:
+    print( 'Is ' + x)
