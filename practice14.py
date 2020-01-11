@@ -1,7 +1,7 @@
-from datetime import date
-x = int(input('day first :'))
-y = int(input('day second:'))
-datetime(x, '%Y, %m, %d')
-datetime(y, '%Y, %m, %d')
-delta = (y - x)
+import datetime 
+x = input('day first :')
+y = input('day second:')
+dx = datetime.datetime.strptime(x, '%Y-%m-%d')
+dy = datetime.datetime.strptime(y, '%Y-%m-%d')
+delta = dy - dx
 print(delta)
